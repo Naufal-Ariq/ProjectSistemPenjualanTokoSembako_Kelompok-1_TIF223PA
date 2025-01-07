@@ -6,35 +6,35 @@
 
 ## Kelompok
 <ul>
-  <li>Kelompok: {kelompok}</li>
-  <li>Proyek: {proyek}</li>
+  <li>Kelompok: {1}</li>
+  <li>Proyek: {Sistem Penjualan Toko Sembako}</li>
   <li>Anggota:</li>
   <ul>
-    <li>Ketua: <a href="">Ketua</a></li>
-    <li>Anggota 1: <a href="">Anggota 1</a></li>
-    <li>Anggota 2: <a href="">Anggota 2</a></li>
+    <li>Ketua: <a href="Naufal Ariq Fauziy">Ketua</a></li>
+    <li>Anggota 1: <a href="Arrafi Hilmi">Anggota 1</a></li>
+    <li>Anggota 2: <a href="Rendra Hairul Assyfa">Anggota 2</a></li>
   </ul>
 </ul>
 
 ## Judul Studi Kasus
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Sistem Penjualan Toko Sembako.</p>
 
 ## Penjelasan Studi Kasus
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Sistem yang dikembangkan adalah aplikasi berbasis e-commerce untuk pengelolaan penjualan dan stok barang pada toko sembako. Aplikasi ini dirancang untuk membantu pemilik toko dalam mengelola transaksi penjualan, pengendalian stok barang, serta pembuatan laporan keuangan yang lebih mudah dan akurat. Aplikasi ini bertujuan untuk meningkatkan efisiensi operasional toko sembako dengan menggantikan sistem pencatatan manual yang sering kali rentan terhadap kesalahan dan keterlambatan.Aplikasi ini memungkinkan pemilik toko untuk melakukan pencatatan transaksi penjualan secara otomatis dan real-time. Selain itu, sistem ini juga menyediakan fitur untuk memantau stok barang yang tersedia di toko, dengan notifikasi untuk mengingatkan pemilik toko ketika stok barang mencapai batas minimum, sehingga dapat menghindari kekurangan atau kelebihan stok.</p>
 
 ## Penjelasan 4 Pilar OOP dalam Studi Kasus
 
 ### 1. Inheritance
-<p>Lorem ipsum sir dolor amet.</p>
+<p> Digunakan untuk mengelompokkan sifat atau fungsi umum dari entitas, seperti "Barang" atau "Transaksi," yang dapat diturunkan ke kelas lebih spesifik.</p>
 
 ### 2. Encapsulation
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat dan hanya bisa diakses melalui metode tertentu..</p>
 
 ### 3. Polymorphism
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Berbagai metode yang memiliki nama sama namun perilaku berbeda diterapkan, misalnya metode untuk menampilkan laporan dalam format yang berbeda.</p>
 
 ### 4. Abstract
-<p>Lorem ipsum sir dolor amet.</p>
+<p>Fokus pada fitur utama sistem dengan menyembunyikan detail implementasi yang kompleks agar sistem mudah dipahami.</p>
 
 ## Struktur Tabel Aplikasi
 <p>Lorem ipsum sir dolor amet.</p>
@@ -44,6 +44,6 @@
 
 ## Demo Proyek
 <ul>
-  <li>Github: <a href="">Github</a></li>
+  <li>Github: <a href="https://github.com/Naufal-Ariq/ProjectSistemPenjualanTokoSembako_Kelompok-1_TIF223PA">Github</a></li>
   <li>Youtube: <a href="">Youtube</a></li>
 </ul>
