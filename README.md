@@ -10,9 +10,9 @@
   <li>Proyek: {Sistem Penjualan Toko Sembako}</li>
   <li>Anggota:</li>
   <ul>
-    <li>Ketua: <a href="Naufal Ariq Fauziy">Ketua</a></li>
-    <li>Anggota 1: <a href="Arrafi Hilmi">Anggota 1</a></li>
-    <li>Anggota 2: <a href="Rendra Hairul Assyfa">Anggota 2</a></li>
+    <li>Ketua: <a href="">Naufal Ariq Fauziy</a></li>
+    <li>Anggota 1: <a href="">Arrafi Hilmi</a></li>
+    <li>Anggota 2: <a href="">Rendra Hairul Assyfa</a></li>
   </ul>
 </ul>
 
