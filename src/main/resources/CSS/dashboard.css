@@ -1,0 +1,144 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 15, 2025, 11:40:13 AM
+    Author     : naufal ariq
+*/
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    background-color:  #d3d3d3;
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    border: 2px solid red; /* Add a visible border to see if it's applied */
+}
+
+/* Highlight for "Tambah Produksi" */
+.sidebar-label.tambah-produksi {
+    background-color: #d1ecf1; /* Light blue background */
+    color: #0c5460; /* Dark blue color for text */
+}
+
+.sidebar-label {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.sidebar-label:hover {
+    background-color: #e9ecef;
+}
+
+/* Top Bar Styles */
+.top-bar {
+    background-color: #ADD8E6;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dashboard-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Hamburger Icon Styles */
+.hamburger-icon {
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger-icon div {
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+    border-radius: 2px;
+}
+
+/* Search Field */
+.search-field {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.profile-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Statistics Pane */
+.stats-pane {
+    display: flex;
+    gap: 15px;
+}
+
+.stat-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1;
+}
+
+.stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.income-stat {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* Content Area */
+.content-area {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Table Styles */
+.table-view {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.table-view th, .table-view td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-view th {
+    background-color: #f1f1f1;
+}

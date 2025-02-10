@@ -1,47 +1,46 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.projectpenjualantokosembako;
 
-/**
- *
- * @author naufal ariq
- */
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/toko_sembako"; // Ganti 'your_database_name' dengan nama database Anda
-    private static final String USER = "root"; // Ganti 'your_username' dengan username database Anda
-    private static final String PASSWORD = ""; // Ganti 'your_password' dengan password database Anda
+    // Konfigurasi koneksi database
+    private static final String URL = "jdbc:mysql://localhost:3306/toko_sembako?useSSL=false&serverTimezone=UTC"; // Ganti 'toko_sembako' dengan nama database Anda
+    private static final String USER = "root"; // Ganti 'root' dengan username database Anda
+    private static final String PASSWORD = ""; // Ganti dengan password database Anda jika ada
 
     private static Connection connection;
 
+    // Memuat driver JDBC hanya sekali saat kelas pertama kali dipanggil
     static {
         try {
-            // Memuat driver JDBC
             Class.forName("com.mysql.cj.jdbc.Driver");
-
-            // Membuat koneksi ke database
-            connection = DriverManager.getConnection(URL, USER, PASSWORD);
-
-            System.out.println("Database connection established successfully.");
+            System.out.println("JDBC Driver loaded successfully.");
         } catch (ClassNotFoundException e) {
             System.err.println("JDBC Driver not found.");
-            e.printStackTrace();
-        } catch (SQLException e) {
-            System.err.println("Failed to establish database connection.");
             e.printStackTrace();
         }
     }
 
-    public static Connection getConnection() {
+    // Mendapatkan koneksi ke database
+    public static Connection getConnection() throws SQLException {
+        if (connection == null || connection.isClosed()) {
+            try {
+                // Membuat koneksi ke database
+                connection = DriverManager.getConnection(URL, USER, PASSWORD);
+                System.out.println("Database connection established successfully.");
+            } catch (SQLException e) {
+                System.err.println("Failed to establish database connection.");
+                e.printStackTrace();
+                throw e;  // Melempar kembali exception untuk penanganan lebih lanjut
+            }
+        }
         return connection;
     }
 
+    // Menutup koneksi database jika sudah tidak digunakan
     public static void closeConnection() {
         if (connection != null) {
             try {
@@ -53,7 +52,4 @@ public class DatabaseConnection {
             }
         }
     }
-
-
-
 }

@@ -1,45 +1,49 @@
 package com.mycompany.projectpenjualantokosembako;
 
+import Dashboard.AdminDashboard;
+import Login.LoginView;
+import Product.ProductOperations;
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
-
-import java.io.IOException;
 import javafx.geometry.Insets;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+import Dashboard.CustomerPortal;
 
-/**
- * JavaFX App
- */
+
 public class App extends Application {
 
-    private static Scene scene;
-
-     @Override
+    @Override
     public void start(Stage primaryStage) {
-        VBox layout = new VBox(10);
-        layout.setPadding(new Insets(10));
+        // Create and show the login view
+        Stage loginStage = new Stage();
+        LoginView loginView = new LoginView(loginStage); // Pass the loginStage to the constructor
 
-        // Buttons for navigation
-        Button btnAddProduct = new Button("Tambah Produk");
-        Button btnTransaction = new Button("Transaksi");
+        // Set up login success callback for admin
+        loginView.setOnAdminLoginSuccess(() -> {
+            // Close the login stage
+            loginStage.close();
 
-        btnAddProduct.setOnAction(e -> AddProductScreen.display());
-        btnTransaction.setOnAction(e -> TransactionScreen.display());
+            // Show the Admin Dashboard for admin users
+            AdminDashboard adminDashboard = new AdminDashboard(primaryStage);
+        });
 
-        layout.getChildren().addAll(btnAddProduct, btnTransaction);
+        // Set up login success callback for regular users
+        loginView.setOnUserLoginSuccess(() -> {
+            // Close the login stage
+            loginStage.close();
 
-        Scene scene = new Scene(layout, 300, 200);
-        primaryStage.setScene(scene);
-        primaryStage.setTitle("Toko Sembako");
-        primaryStage.show();
+           // Show the Customer Dashboard for regular users
+    String username = "user"; // Replace with the actual username if needed
+    CustomerPortal customerPortal = new CustomerPortal(primaryStage, username); // Pass the username
+    customerPortal.showDashboard(); // Call the method to display the portal
+});
+        // Display the login view
+        loginView.showLoginView(); // Call to show the login view
     }
 
     public static void main(String[] args) {
         launch(args);
     }
 }
-
