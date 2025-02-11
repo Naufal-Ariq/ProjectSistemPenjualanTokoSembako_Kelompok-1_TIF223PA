@@ -37,7 +37,7 @@
 <p>Fokus pada fitur utama sistem dengan menyembunyikan detail implementasi yang kompleks agar sistem mudah dipahami.</p>
 
 ## Struktur Tabel Aplikasi
-<p>![Image](https://github.com/user-attachments/assets/7e714929-5858-451f-bf2d-09469bd264f7)</p>
+<p>![Tabel Database](https://github.com/user-attachments/assets/7e714929-5858-451f-bf2d-09469bd264f7)</p>
 
 ## Tampilan Aplikasi
 <p>Lorem ipsum sir dolor amet.</p>
