@@ -32,26 +32,26 @@
 '''java
 
     public class AdminAccount extends User {
-    private String role;
+      private String role;
 
     public AdminAccount(int id, String username, String password, Timestamp createdAt, String email, String role) {
         super(id, username, password, createdAt, email);
         this.role = role;
     }
 
-    // Getter dan Setter untuk role
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
-
-    @Override
-    public void displayInfo() {
-        System.out.println("Admin Account - ID: " + getId() + ", Username: " + getUsername() + ", Role: " + role);
-    }
+      // Getter dan Setter untuk role
+      public String getRole() {
+          return role;
+      }
+  
+      public void setRole(String role) {
+          this.role = role;
+      }
+  
+      @Override
+      public void displayInfo() {
+          System.out.println("Admin Account - ID: " + getId() + ", Username: " + getUsername() + ", Role: " + role);
+      }
     }
 '''
 
