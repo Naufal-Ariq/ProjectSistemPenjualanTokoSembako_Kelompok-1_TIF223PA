@@ -29,7 +29,8 @@
 
 ### 2. Encapsulation
 Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat dan hanya bisa diakses melalui metode tertentu
-    ### User.java
+   
+  ### User.java
 
   ...java
   
