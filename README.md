@@ -40,17 +40,17 @@
 [Tabel Database] ![Screenshot 2025-02-11 174155](https://github.com/user-attachments/assets/7e714929-5858-451f-bf2d-09469bd264f7)
 
 ## Tampilan Aplikasi
-![Tampilan Login](https://github.com/user-attachments/assets/b7e7f37d-b2d1-4fdd-9f2a-7f94df5bcd71)
+[Tampilan Login] ![](https://github.com/user-attachments/assets/b7e7f37d-b2d1-4fdd-9f2a-7f94df5bcd71)
 
-![Tampilan Register](https://github.com/user-attachments/assets/34a58889-3234-4f05-9453-62d49b980230)
+[Tampilan Register] ![](https://github.com/user-attachments/assets/34a58889-3234-4f05-9453-62d49b980230)
 
-![Tampilan Admin Dashboard ](https://github.com/user-attachments/assets/a00be17a-143a-4729-bf86-becc6eec9e33)
+[Tampilan Admin Dashboard] ![](https://github.com/user-attachments/assets/a00be17a-143a-4729-bf86-becc6eec9e33)
 
-![Tampilan Admin Dashboard Fitur Tambah Produk](https://github.com/user-attachments/assets/6364510b-adc7-42a7-b61f-63c82033e77f)
+[Tampilan Admin Dashboard Fitur Tambah Produk] ![](https://github.com/user-attachments/assets/6364510b-adc7-42a7-b61f-63c82033e77f)
 
-![Tampilan Admin Dasboard Fitur Akun admin](https://github.com/user-attachments/assets/8f673376-761e-4826-ac8f-f514e03c9507)
+[Tampilan Admin Dasboard Fitur Akun admin] ![](https://github.com/user-attachments/assets/8f673376-761e-4826-ac8f-f514e03c9507)
 
-![Tampilan Customer Portal Fitur Purchase](https://github.com/user-attachments/assets/1af3176c-9998-4883-9939-4812cf4dbd87)
+[Tampilan Customer Portal Fitur Purchase] ![](https://github.com/user-attachments/assets/1af3176c-9998-4883-9939-4812cf4dbd87)
 
 ![](https://github.com/user-attachments/assets/13e08529-c3d9-41b5-89d8-e29d1f265517)
 
