@@ -27,6 +27,76 @@
 ### 1. Inheritance
 <p> Digunakan untuk mengelompokkan sifat atau fungsi umum dari entitas, seperti "Barang" atau "Transaksi," yang dapat diturunkan ke kelas lebih spesifik.</p>
 
+### AdminAccount.Java
+    public class AdminAccount extends User {
+    private String role;
+
+    public AdminAccount(int id, String username, String password, Timestamp createdAt, String email, String role) {
+        super(id, username, password, createdAt, email);
+        this.role = role;
+    }
+
+    // Getter dan Setter untuk role
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
+    }
+
+    @Override
+    public void displayInfo() {
+        System.out.println("Admin Account - ID: " + getId() + ", Username: " + getUsername() + ", Role: " + role);
+    }
+    }
+
+### Customer.Java
+
+    public class Customer extends User {
+    private String name;
+    private String phone;
+    private String address;
+
+    public Customer(int id, String username, String password, Timestamp createdAt, String email, String name, String phone, String address) {
+        super(id, username, password, createdAt, email);
+        this.name = name;
+        this.phone = phone;
+        this.address = address;
+    }
+
+    // Getter dan Setter untuk name, phone, dan address
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    @Override
+    public void displayInfo() {
+        System.out.println("Customer - ID: " + getId() + ", Username: " + getUsername() + ", Name: " + name);
+    }
+    }
+
+
 ### 2. Encapsulation
 Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat dan hanya bisa diakses melalui metode tertentu
    
