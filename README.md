@@ -28,23 +28,26 @@
 <p> Digunakan untuk mengelompokkan sifat atau fungsi umum dari entitas, seperti "Barang" atau "Transaksi," yang dapat diturunkan ke kelas lebih spesifik.</p>
 
 ### 2. Encapsulation
-<p>Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat dan hanya bisa diakses melalui metode tertentu..</p>
-...java
-private int id;
-private String username;
-private String password;
-private Timestamp createdAt;
-private String email;
+Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat dan hanya bisa diakses melalui metode tertentu
+    ### User.java
 
-public int getId() {
-    return id;
-}
-
-public void setId(int id) {
-    this.id = id;
-}
-
-// Getter dan Setter lainnya
+  ...java
+  
+        private int id;
+        private String username;
+        private String password;
+        private Timestamp createdAt;
+        private String email;
+        
+        public int getId() {
+            return id;
+        }
+        
+        public void setId(int id) {
+            this.id = id;
+        }
+        
+        // Getter dan Setter lainnya
 ...
 
 
