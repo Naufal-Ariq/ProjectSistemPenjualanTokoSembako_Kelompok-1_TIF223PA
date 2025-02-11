@@ -29,7 +29,7 @@
 
 ### AdminAccount.Java
 
-...Java
+...java
 
     public class AdminAccount extends User {
     private String role;
