@@ -28,9 +28,6 @@
 <p> Digunakan untuk mengelompokkan sifat atau fungsi umum dari entitas, seperti "Barang" atau "Transaksi," yang dapat diturunkan ke kelas lebih spesifik.</p>
 
 ## AdminAccount.Java
-
-'''java
-
     public class AdminAccount extends User {
       private String role;
 
@@ -54,8 +51,6 @@
       }
     }
     
-'''
-
 ### Customer.Java
 
     public class Customer extends User {
@@ -140,8 +135,8 @@ Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat 
         
 ### 4. Abstract
 <p>Fokus pada fitur utama sistem dengan menyembunyikan detail implementasi yang kompleks agar sistem mudah dipahami.</p>
-
-  ###User.Java
+  
+  ### User.Java
     
     public abstract class User {
     private int id;
