@@ -29,7 +29,7 @@
 
 ### AdminAccount.Java
 
-...java
+'''java
 
     public class AdminAccount extends User {
     private String role;
@@ -53,7 +53,7 @@
         System.out.println("Admin Account - ID: " + getId() + ", Username: " + getUsername() + ", Role: " + role);
     }
     }
-...
+'''
 
 ### Customer.Java
 
