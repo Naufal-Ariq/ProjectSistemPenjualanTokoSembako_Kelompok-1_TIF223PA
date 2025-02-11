@@ -25,7 +25,8 @@
 ## Penjelasan 4 Pilar OOP dalam Studi Kasus
 
 ### 1. Inheritance
-<p> Digunakan untuk mengelompokkan sifat atau fungsi umum dari entitas, seperti "Barang" atau "Transaksi," yang dapat diturunkan ke kelas lebih spesifik.</p>
+<p> Digunakan untuk mengelompokkan sifat atau fungsi umum dari entitas, seperti "User", yang dapat diturunkan ke kelas lebih spesifik 
+  Kelas User menjadi kelas dasar yang diwarisi oleh kelas AdminAccount dan Customer:.</p>
 
 ## AdminAccount.Java
     public class AdminAccount extends User {
@@ -98,8 +99,9 @@
 
 
 ### 2. Encapsulation
-Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat dan hanya bisa diakses melalui metode tertentu
-   
+Data penting, seperti password atau email, dilindungi melalui atribut privat dan hanya bisa diakses melalui metode tertentu
+Encapsulation diterapkan dengan membuat atribut private dan menyediakan metode getter dan setter. Misalnya, dalam kelas User:
+
   ### User.java
         private int id;
         private String username;
@@ -119,7 +121,7 @@ Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat 
 
 
 ### 3. Polymorphism
-<p>Berbagai metode yang memiliki nama sama namun perilaku berbeda diterapkan, misalnya metode untuk menampilkan laporan dalam format yang berbeda.</p>
+<p>Polymorphism diteraplikasikan dengan menggunakan metode abstrak displayInfo dalam kelas User yang ditimpa oleh kelas AdminAccount dan Customer.</p>
 
     @Override
         public void displayInfo() {
@@ -134,7 +136,7 @@ Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat 
     }
         
 ### 4. Abstract
-<p>Fokus pada fitur utama sistem dengan menyembunyikan detail implementasi yang kompleks agar sistem mudah dipahami.</p>
+<p>Fokus pada fitur utama sistem dengan menyembunyikan detail implementasi yang kompleks agar sistem mudah dipahami Abstraction diteraplikasikan dengan menggunakan kelas abstrak User yang menyediakan struktur dasar untuk kelas AdminAccount dan Customer: </p>
   
   ### User.Java
     
