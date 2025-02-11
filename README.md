@@ -20,7 +20,7 @@
 <p>Sistem Penjualan Toko Sembako.</p>
 
 ## Penjelasan Studi Kasus
-<p>Sistem yang dikembangkan adalah aplikasi berbasis e-commerce untuk pengelolaan penjualan dan stok barang pada toko sembako. Aplikasi ini dirancang untuk membantu pemilik toko dalam mengelola transaksi penjualan, pengendalian stok barang, serta pembuatan laporan keuangan yang lebih mudah dan akurat. Aplikasi ini bertujuan untuk meningkatkan efisiensi operasional toko sembako dengan menggantikan sistem pencatatan manual yang sering kali rentan terhadap kesalahan dan keterlambatan.Aplikasi ini memungkinkan pemilik toko untuk melakukan pencatatan transaksi penjualan secara otomatis dan real-time. Selain itu, sistem ini juga menyediakan fitur untuk memantau stok barang yang tersedia di toko, dengan notifikasi untuk mengingatkan pemilik toko ketika stok barang mencapai batas minimum, sehingga dapat menghindari kekurangan atau kelebihan stok.</p>
+<p>Sistem yang dikembangkan adalah aplikasi berbasis e-commerce untuk pengelolaan penjualan dan stok barang pada toko sembako. Aplikasi ini dirancang untuk membantu pemilik toko dalam mengelola transaksi penjualan, dan pengendalian stok barang. Aplikasi ini bertujuan untuk meningkatkan efisiensi operasional toko sembako dengan menggantikan sistem pencatatan manual yang sering kali rentan terhadap kesalahan dan keterlambatan.Aplikasi ini memungkinkan pemilik toko untuk melakukan pencatatan transaksi penjualan secara otomatis dan real-time. Selain itu, sistem ini juga menyediakan fitur untuk memantau stok barang yang tersedia di toko.</p>
 
 ## Penjelasan 4 Pilar OOP dalam Studi Kasus
 
