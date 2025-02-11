@@ -27,7 +27,7 @@
 ### 1. Inheritance
 <p> Digunakan untuk mengelompokkan sifat atau fungsi umum dari entitas, seperti "Barang" atau "Transaksi," yang dapat diturunkan ke kelas lebih spesifik.</p>
 
-### AdminAccount.Java
+## AdminAccount.Java
 
 '''java
 
