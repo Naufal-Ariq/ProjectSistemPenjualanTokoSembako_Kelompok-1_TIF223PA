@@ -48,6 +48,8 @@
 
 [Tampilan Admin Dashboard Fitur Tambah Produk] ![](https://github.com/user-attachments/assets/6364510b-adc7-42a7-b61f-63c82033e77f)
 
+![](https://github.com/user-attachments/assets/94b7b0fc-68eb-4144-ba2b-cc9741bdf399)
+
 [Tampilan Admin Dasboard Fitur Akun admin] ![](https://github.com/user-attachments/assets/8f673376-761e-4826-ac8f-f514e03c9507)
 
 [Tampilan Customer Portal Fitur Purchase] ![](https://github.com/user-attachments/assets/1af3176c-9998-4883-9939-4812cf4dbd87)
