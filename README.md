@@ -29,6 +29,24 @@
 
 ### 2. Encapsulation
 <p>Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat dan hanya bisa diakses melalui metode tertentu..</p>
+...java
+private int id;
+private String username;
+private String password;
+private Timestamp createdAt;
+private String email;
+
+public int getId() {
+    return id;
+}
+
+public void setId(int id) {
+    this.id = id;
+}
+
+// Getter dan Setter lainnya
+...
+
 
 ### 3. Polymorphism
 <p>Berbagai metode yang memiliki nama sama namun perilaku berbeda diterapkan, misalnya metode untuk menampilkan laporan dalam format yang berbeda.</p>
