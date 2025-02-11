@@ -28,6 +28,9 @@
 <p> Digunakan untuk mengelompokkan sifat atau fungsi umum dari entitas, seperti "Barang" atau "Transaksi," yang dapat diturunkan ke kelas lebih spesifik.</p>
 
 ### AdminAccount.Java
+
+...Java
+
     public class AdminAccount extends User {
     private String role;
 
@@ -50,6 +53,7 @@
         System.out.println("Admin Account - ID: " + getId() + ", Username: " + getUsername() + ", Role: " + role);
     }
     }
+...
 
 ### Customer.Java
 
