@@ -101,9 +101,6 @@
 Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat dan hanya bisa diakses melalui metode tertentu
    
   ### User.java
-
-  ...java
-  
         private int id;
         private String username;
         private String password;
@@ -119,14 +116,50 @@ Data penting, seperti harga atau stok barang, dilindungi melalui atribut privat 
         }
         
         // Getter dan Setter lainnya
-...
 
 
 ### 3. Polymorphism
 <p>Berbagai metode yang memiliki nama sama namun perilaku berbeda diterapkan, misalnya metode untuk menampilkan laporan dalam format yang berbeda.</p>
 
+    @Override
+        public void displayInfo() {
+            System.out.println("Admin Account - ID: " + getId() + ", Username: " + getUsername() + ", Role: " + role);
+        }
+    }
+    
+     @Override
+        public void displayInfo() {
+            System.out.println("Customer - ID: " + getId() + ", Username: " + getUsername() + ", Name: " + name);
+        }
+    }
+        
 ### 4. Abstract
 <p>Fokus pada fitur utama sistem dengan menyembunyikan detail implementasi yang kompleks agar sistem mudah dipahami.</p>
+
+  ###User.Java
+    
+    public abstract class User {
+    private int id;
+    private String username;
+    private String password;
+    private Timestamp createdAt;
+    private String email;
+
+    public User(int id, String username, String password, Timestamp createdAt, String email) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.createdAt = createdAt;
+        this.email = email;
+    }
+
+    // Getter dan Setter
+
+    // Metode abstrak
+    public abstract void displayInfo();
+    }
+
+  
 
 ## Struktur Tabel Aplikasi
 [Tabel Database] ![Screenshot 2025-02-11 174155](https://github.com/user-attachments/assets/7e714929-5858-451f-bf2d-09469bd264f7)
