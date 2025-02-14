@@ -186,5 +186,5 @@ Encapsulation diterapkan dengan membuat atribut private dan menyediakan metode g
 ## Demo Proyek
 <ul>
   <li>Github: <a href="https://github.com/Naufal-Ariq/ProjectSistemPenjualanTokoSembako_Kelompok-1_TIF223PA">Github</a></li>
-  <li>Youtube: <a href="">Youtube</a></li>
+  <li>Youtube: <a href="https://youtu.be/VrfHkQr_j1s">Youtube</a></li>
 </ul>
